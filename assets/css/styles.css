@@ -179,11 +179,14 @@ footer .footer-content {
 }
 
 .portfolio-links li a {
+ 	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+.portfolio-links li p {
 	display: block;
 	width: 280px;
-	line-height: 60px;
-	text-decoration: none;
-	text-align: center;
-	color: white;	
+	line-height: 60px;	
 	font-size: 24px;
 }
