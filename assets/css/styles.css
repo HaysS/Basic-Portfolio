@@ -1,3 +1,7 @@
+/*---------------------------------
+ *HTML Tags
+ *---------------------------------*/
+
 html, body {
 	height: 100%;
 }
@@ -48,6 +52,39 @@ ul {
 	list-style: none;
 }
 
+form {
+	display: block;
+}
+
+form p {
+	font-size: 18px;
+}
+
+form [type=text], form textarea {
+	display: block;
+	width: 580px;
+	border: 1px solid lightgray;
+	background-color: white;
+	color: lightgray;
+	padding: 5px;
+	margin: 5px 0px;	
+}
+
+form [type=submit] {
+	display: block;
+	text-align: center;
+	background-color: teal;
+	color: white;
+	width: 120px;
+	height: 40px;
+	margin: 20px 0px 0px 0px;
+}
+
+form textarea {
+	resize: vertical;
+	height: 200px;
+}
+
 nav p, nav a {
 	display: inline;
 }
@@ -64,6 +101,10 @@ header h1 {
 	color: white;
 }
 
+/*---------------------------------
+ *Classes
+ *---------------------------------*/
+
 header .column {
 	line-height: 80px;
 }
@@ -72,9 +113,17 @@ header .left-col {
 	background-color: teal;	
 }
 
+header .right-col p {
+	padding: 0px 10px;
+}
+
 footer .footer-content {
 	line-height: 20px;
 	margin: 0px auto;
+}
+
+form .message .text-box {
+	height: 200px;
 }
 
 .wrapper {
@@ -106,7 +155,6 @@ footer .footer-content {
 .footer-content{
 	width: 960px;
 	text-align: center;
-	/*margin: 0 auto;*/
 }
 
 .main-content {
@@ -184,6 +232,10 @@ footer .footer-content {
 	line-height: 60px;	
 	font-size: 24px;
 }
+
+/*---------------------------------
+ *Portfolio Images
+ *---------------------------------*/
 
 .portfolio-links .background-image-1 {
 	background-image: url("../images/bread.jpg");
