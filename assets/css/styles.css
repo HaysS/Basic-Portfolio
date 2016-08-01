@@ -26,7 +26,6 @@ p {
 
 a:hover {
 	text-shadow: -2px 1px 5px white;
-	text-decoration: underline;
 }
 
 hr {
@@ -48,6 +47,10 @@ header {
 
 header a {
 	text-decoration: none;
+}
+
+header nav a:hover {
+	text-decoration: underline;
 }
 
 footer {
