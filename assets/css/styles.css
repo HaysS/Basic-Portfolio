@@ -60,17 +60,21 @@ form p {
 	font-size: 18px;
 }
 
-form [type=text], form textarea {
+form input[placeholder] {
+	color: lightgray;
+}
+
+form input[type=text], form textarea {
 	display: block;
 	width: 580px;
 	border: 1px solid lightgray;
 	background-color: white;
-	color: lightgray;
+	color: black;
 	padding: 5px;
 	margin: 5px 0px;	
 }
 
-form [type=submit] {
+form input[type=submit] {
 	display: block;
 	text-align: center;
 	background-color: teal;
