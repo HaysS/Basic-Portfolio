@@ -163,19 +163,13 @@ footer .footer-content {
 	margin: 0px 30px 30px 0px;		
 }
 
-.portfolio-links img {
-	height: 200px;
-	width: 280px;
-}
-
-.portfolio-links .overlay-image {
+.portfolio-links .overlay {
 	display: block;
-	z-index: 2;
 	position: relative;
 	background-color: teal;
 	width: 280px;
 	height: 60px;
-	top: -80px;
+	top: 120px;
 }
 
 .portfolio-links li a {
@@ -189,4 +183,54 @@ footer .footer-content {
 	width: 280px;
 	line-height: 60px;	
 	font-size: 24px;
+}
+
+.portfolio-links .background-image-1 {
+	background-image: url("../images/bread.jpg");
+	display: block;
+	width: 280px;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.portfolio-links .background-image-2 {
+	background-image: url("../images/garlic-cloves.jpg");
+	display: block;
+	width: 280px;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.portfolio-links .background-image-3 {
+	background-image: url("../images/sliced-red-onions.jpg");
+	display: block;
+	width: 280px;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.portfolio-links .background-image-4 {
+	background-image: url("../images/walmart-man.jpg");
+	display: block;
+	width: 280px;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.portfolio-links .background-image-5 {
+	background-image: url("../images/virtuous-office-worker.jpg");
+	display: block;
+	width: 280px;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
