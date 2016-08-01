@@ -23,7 +23,7 @@ header a {
 
 footer {
 	padding: 25px 0px;
-	background: gray;
+	background-color: gray;
 	border-top: 10px solid teal;
 	color: lightgray;
 }
@@ -135,7 +135,9 @@ form .message .text-box {
 	height: 80px;
 }
 
-.header-content, .main-content {
+.header-content, .main-content, .footer-content {
+	display: block;
+	overflow: hidden;
 	width: 960px;
 	margin: 0px auto;
 }
@@ -153,7 +155,6 @@ form .message .text-box {
 }
 
 .footer-content{
-	width: 960px;
 	text-align: center;
 }
 
