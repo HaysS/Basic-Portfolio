@@ -14,7 +14,7 @@ body {
 header {
 	background-color: white;
 	overflow: hidden;
-	border-bottom: 2px solid lightgray;
+	border-bottom: 3px solid lightgray;
 }
 
 header a {
@@ -189,9 +189,22 @@ form .message .text-box {
 	display: inline;
 }
 
+.social-links {
+	display: : block;
+	overflow: auto;
+}
+
+.social-links a {
+	float: left;
+}
+
 .social-links img {
-	width: 30%;
-	height: 30%;
+	width: 60px;
+	height: 60px;
+}
+
+.social-links .second img, .social-links .third img{
+	margin-left: 14px;
 }
 
 .portfolio-links li {
@@ -220,6 +233,15 @@ form .message .text-box {
 	top: 120px;
 }
 
+.portfolio-links a {
+	display: block;
+	width: 280px;
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
 .portfolio-links li a {
  	text-decoration: none;
 	text-align: center;
@@ -239,50 +261,20 @@ form .message .text-box {
 
 .portfolio-links .background-image-1 {
 	background-image: url("../images/bread.jpg");
-	display: block;
-	width: 280px;
-	height: 200px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 }
 
 .portfolio-links .background-image-2 {
 	background-image: url("../images/garlic-cloves.jpg");
-	display: block;
-	width: 280px;
-	height: 200px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 }
 
 .portfolio-links .background-image-3 {
 	background-image: url("../images/sliced-red-onions.jpg");
-	display: block;
-	width: 280px;
-	height: 200px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 }
 
 .portfolio-links .background-image-4 {
 	background-image: url("../images/walmart-man.jpg");
-	display: block;
-	width: 280px;
-	height: 200px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 }
 
 .portfolio-links .background-image-5 {
 	background-image: url("../images/virtuous-office-worker.jpg");
-	display: block;
-	width: 280px;
-	height: 200px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
 }
